@@ -1,0 +1,46 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/tableRow">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/history_display_no"
+        android:layout_weight="0.10"
+        android:gravity="center"
+        android:text="NO."/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/history_player_login"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="USER"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/history_display_amount"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:text="AMOUNT"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/history_display_total"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:text="TOTAL"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/history_display_photo"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:text="PHOTO"/>
+
+</TableRow>
